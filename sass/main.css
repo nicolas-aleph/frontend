@@ -1,0 +1,76 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: monospace;
+}
+
+.verde {
+  border: solid 5px #17b117;
+  font-size: 50px;
+  padding: 5px;
+  -webkit-transition: top 0.5s, right 0.5s, left 0.5s;
+  transition: top 0.5s, right 0.5s, left 0.5s;
+  position: absolute;
+  top: 55px;
+}
+
+.morado {
+  border: solid 5px #f159f1;
+  font-size: 50px;
+  padding: 5px;
+  -webkit-transition: top 0.5s, right 0.5s, left 0.5s;
+  transition: top 0.5s, right 0.5s, left 0.5s;
+  text-align: right;
+  position: absolute;
+  right: 0;
+  left: 110px;
+  top: 120px;
+}
+
+@media (min-width: 600px) {
+  .verde {
+    top: 240px;
+  }
+  .morado {
+    text-align: center;
+  }
+}
+
+@media (min-width: 734px) {
+  .verde {
+    top: 60px;
+    left: 200px;
+  }
+  .morado {
+    text-align: center;
+    right: auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .verde {
+    top: 185px;
+    left: 320px;
+  }
+}
+
+@media (min-width: 850px) {
+  .verde {
+    top: 55px;
+    left: 430px;
+  }
+}
+
+@media (min-width: 940px) {
+  .verde {
+    top: 185px;
+    left: 550px;
+  }
+}
+
+@media (min-width: 1037px) {
+  .verde {
+    top: 55px;
+    left: 650px;
+  }
+}
